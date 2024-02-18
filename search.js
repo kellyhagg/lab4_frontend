@@ -7,7 +7,7 @@ function searchDefinition() {
   }
 
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `https://real-lacy-python.glitch.me/api/definitions?word=${encodeURIComponent(word)}`, true);
+  xhr.open('GET', `https://main--mellow-torte-fc97e7.netlify.app/api/definitions?word=${encodeURIComponent(word)}`, true);
 
   xhr.onload = function () {
     if (xhr.readyState === 4) {

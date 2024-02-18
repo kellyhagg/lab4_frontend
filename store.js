@@ -39,7 +39,7 @@ function addDefinition() {
 
   // TODO: add url
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://real-lacy-python.glitch.me/api/definitions', true);
+  xhr.open('POST', 'https://main--mellow-torte-fc97e7.netlify.app/api/definitions', true);
   xhr.setRequestHeader('Content-Type', 'application/json');
 
   xhr.onload = function () {
